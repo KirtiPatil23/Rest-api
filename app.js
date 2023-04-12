@@ -6,7 +6,7 @@ const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const mongoose=require('mongoose')
 require('dotenv').config()
-
+const cors = require('cors')
 
 // app.use((req,res)=>{
 //     res.status(200).json({
