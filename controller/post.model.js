@@ -34,7 +34,7 @@ exports.getPostById = async (req, res) => {
 
         const post = await Post.findById(req.params.postId);//
         res.status(200).json({
-            msg: " ID get fetched Successfully ",
+            msg: " single post get fetched Successfully ",
             data: post
         })
 
