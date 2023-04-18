@@ -53,7 +53,7 @@ router.post('/',postController.createPost)
 
 // handle single get request for products
 
-router.get('/:postID' ,postController.getPostById,)
+router.get('/:postId' ,postController.getPostById,)
 //  (req, res) => {
 //     const id = req.params.usernameID
 
