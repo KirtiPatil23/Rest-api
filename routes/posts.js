@@ -70,7 +70,7 @@ router.get('/:postId' ,postController.getPostById,)
 
 
 // handle PUT request for products
-router.put('/:postID',postController.updatePost)
+router.put('/:postId',postController.updatePost)
 //  (req, res) => {
 //     const id = req.params.usernameID
 //     res.status(200).json({
